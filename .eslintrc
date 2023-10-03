@@ -1,0 +1,13 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": true
+  },
+  "plugins": ["functional"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:functional/external-vanilla-recommended",
+    "plugin:functional/recommended",
+    "plugin:functional/stylistic"
+  ]
+}
